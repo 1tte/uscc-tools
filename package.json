@@ -1,0 +1,24 @@
+{
+  "name": "text-to-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start --no-source-maps",
+    "build": "react-scripts build --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-cpu": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0",
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "cosine-similarity": "^1.0.1",
+    "express": "^4.21.2",
+    "face-api.js": "^0.22.2",
+    "pdfkit": "^0.16.0"
+  }
+}
